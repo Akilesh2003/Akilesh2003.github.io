@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Akilesh Konda",
-  title: "Hello, I'm Akilesh!",
+  title: "Hello! I'm Akilesh.",
   subTitle: emoji(
     "Computer Science student @ University of Washington - Seattle"
   ),
