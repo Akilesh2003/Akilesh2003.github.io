@@ -1,1 +1,0 @@
-Hey, I am Akilesh Konda and this is my portfolio website!
