@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Akilesh Konda",
-  title: "Hello! I'm Akilesh",
+  title: "Hello, I'm Akilesh",
   subTitle: emoji(
-    "Computer Science student @ University of Washington - Seattle"
+    "A Computer Science student @ University of Washington - Seattle"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ZlkvbYE-zGFRdSOq1lPpGAAQ0GYMomgK/view?usp=sharing", // Set to empty to hide the button
