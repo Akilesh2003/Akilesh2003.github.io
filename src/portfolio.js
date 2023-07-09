@@ -4,7 +4,6 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
 // Splash Screen
 
 const splashScreen = {
@@ -71,6 +70,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
+    },
+
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: ""
     },
     
     {
@@ -192,41 +196,70 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some of my most recent projects!",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //image: require(""),
+      projectName: "SMS Spam Classifier - ML Project",
+      projectDesc: " Implemented a machine learning model achieving 98.83% accuracy in classifying SMS messages as spam or ham, trained on data set from Kaggle",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View on GitHub",
+          url: "https://github.com/Akilesh2003/Spam-SMS-ML-Project"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "RunInfo - Android Application",
+      projectDesc: `Used Android Studio, Java to develop Android Application that 
+                    uses sensors to track user’s running activity and keeps history`,
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View on GitHub",
+          url: "https://github.com/Akilesh2003/RunInfo-AndroidApp"
+        }
+      ]
+    },
+
+    {
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "MedChain - Blockchain Web App",
+      projectDesc: ` A decentralized web application that helps healthcare providers and 
+                    patients access electronic medical records (EMR)
+                    seamlessly, using the Ethereum blockchain, thus making it not owned by a 
+                    centralized entity \n \n Won 3rd place at NextStep Hacks`,
+      footerLink: [
+        {
+          name: "View on Devpost",
+          url: "https://devpost.com/software/medchain-k4wzry"
+        }
+      ]
+    },
+
+    {
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Go Kart! - Unity Engine Game",
+      projectDesc: `Created a 3D kart racing game using Unity Engine and C#; 
+                    designed 5 racing circuits with varying levels of difficulty`,
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/Akilesh2003/GoKart"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
