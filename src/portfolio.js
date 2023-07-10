@@ -74,7 +74,7 @@ https://fontawesome.com/icons?d=gallery */
 
     {
       skillName: "MongoDB",
-      fontAwesomeClassname: ""
+      fontAwesomeClassname: "icon-mongodb"
     },
     
     {
@@ -207,7 +207,7 @@ const bigProjects = {
   subtitle: "Some of my most recent projects!",
   projects: [
     {
-      //image: require(""),
+      image: require("./assets/images/smsSpamLogo.PNG"),
       projectName: "SMS Spam Classifier - ML Project",
       projectDesc: " Implemented a machine learning model achieving 98.83% accuracy in classifying SMS messages as spam or ham, trained on data set from Kaggle",
       footerLink: [
@@ -219,7 +219,7 @@ const bigProjects = {
       ]
     },
     {
-      //image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/runinfoLogo.PNG"),
       projectName: "RunInfo - Android Application",
       projectDesc: `Used Android Studio, Java to develop Android Application that 
                     uses sensors to track user’s running activity and keeps history`,
@@ -232,7 +232,7 @@ const bigProjects = {
     },
 
     {
-      //image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/medchainLogo.jpg"),
       projectName: "MedChain - Blockchain Web App",
       projectDesc: ` A decentralized web application that helps healthcare providers and 
                     patients access electronic medical records (EMR)
@@ -247,7 +247,7 @@ const bigProjects = {
     },
 
     {
-      //image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/gokartLogo.PNG"),
       projectName: "Go Kart! - Unity Engine Game",
       projectDesc: `Created a 3D kart racing game using Unity Engine and C#; 
                     designed 5 racing circuits with varying levels of difficulty`,
