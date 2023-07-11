@@ -21,11 +21,11 @@ const illustration = {
 const greeting = {
   username: "Akilesh Konda",
   title: "Hello, I'm Akilesh",
-  subTitle: emoji(
-    "A Computer Science student @ University of Washington - Seattle"
-  ),
+  subTitle:
+    `An undergraduate Computer Science student @ University of Washington - Seattle.\n 
+    Love to go hiking, biking, and follow Formula 1!`,
   resumeLink:
-    "https://drive.google.com/file/d/1ZlkvbYE-zGFRdSOq1lPpGAAQ0GYMomgK/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1NzHdgiXUzfSOoFDL1M8fSGDOmjSlloEk/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -126,7 +126,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Washington - Seattle",
-      logo: require("./assets/images/UWlogo.png"),
+      logo: require("./assets/images/paulgLogo.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2021 - June 2025",
       //desc: "Participated in the research of XXX and published 3 papers.",
@@ -166,12 +166,12 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer Intern",
-      company: "Aeyesafe",
+      company: "Aeyesafe, Seattle WA",
       companylogo: require("./assets/images/aeyesafeLogo.jpg"),
       date: "Jan 2023 – Present",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Worked on the backend of PZ 10 sleep sensor & monitoring system to track seniors’ sleep quality and detect health issues",
+        "Worked on the backend of a sleep sensor to track users' sleep quality and detect health issues",
         "Developed Aeyesafe Android Application using Android SDK and Kotlin; contributed to UI design through Figma"
       ]
     },
@@ -179,14 +179,14 @@ const workExperiences = {
       role: "Controls Team Member",
       company: "Washington Hyperloop",
       companylogo: require("./assets/images/hyperloopLogo.png"),
-      date: "Dec 2021 – Jun 2023",
+      date: "Dec 2021 – Dec 2022",
       desc: " Worked on the navigation system of robot for tunneling machine competition hosted by Not-A-Boring company"
     },
     {
       role: "Propulsion, Controls & Modelling (PCM) Team Member",
       company: "UW EcoCAR",
       companylogo: require("./assets/images/ecocaLogo.png"),
-      date: "Dec 2021 – Dec 2022",
+      date: "Dec 2021 – Jun 2022",
       desc: " Evaluated vehicle on-board diagnostics on team car for EcoCAR Mobility Challenge hosted by GM"
     }
   ]
