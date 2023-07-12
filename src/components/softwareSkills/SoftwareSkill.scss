@@ -29,3 +29,16 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+
+.software-skills-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.software-skills-main-div > div {
+  flex: 1;
+  max-width: 50%;
+  padding: 0 10px;
+}
