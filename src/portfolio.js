@@ -169,11 +169,8 @@ const workExperiences = {
       company: "Aeyesafe, Seattle WA",
       companylogo: require("./assets/images/aeyesafeLogo.jpg"),
       date: "Jan 2023 – Present",
-      desc: `Worked on the sensors team to deliver a backend infrastructure for obtaining
-              sensor data and created a storage system for live and old data.
-              Then, assumed role of developing an Android application for the company.`,
-      descBullets: [
-              ]
+      desc: "Worked on the sensors team to deliver a backend infrastructure for obtaining sensor data and created a storage system for live and old data. Then, I the assumed role of developing an Android application for the company",
+      
     },
     {
       role: "Controls Team Member",
