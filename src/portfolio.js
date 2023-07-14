@@ -169,25 +169,26 @@ const workExperiences = {
       company: "Aeyesafe, Seattle WA",
       companylogo: require("./assets/images/aeyesafeLogo.jpg"),
       date: "Jan 2023 – Present",
-      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: `Worked on the sensors team to deliver a backend infrastructure for obtaining
+              sensor data and created a storage system for live and old data.
+              Then, assumed role of developing an Android application for the company.`,
       descBullets: [
-        "Worked on the backend of a sleep sensor to track users' sleep quality and detect health issues",
-        "Developed Aeyesafe Android Application using Android SDK and Kotlin; contributed to UI design through Figma"
-      ]
+              ]
     },
     {
       role: "Controls Team Member",
       company: "Washington Hyperloop",
       companylogo: require("./assets/images/hyperloopLogo.png"),
       date: "Dec 2021 – Dec 2022",
-      desc: " Worked on the navigation system of robot for tunneling machine competition hosted by Not-A-Boring company"
+      desc: "Contributed to the navigation system of robot for tunneling machine competition hosted by Not-A-Boring company"
     },
     {
       role: "Propulsion, Controls & Modelling (PCM) Team Member",
       company: "UW EcoCAR",
       companylogo: require("./assets/images/ecocaLogo.png"),
       date: "Dec 2021 – Jun 2022",
-      desc: " Evaluated vehicle on-board diagnostics on team car for EcoCAR Mobility Challenge hosted by GM"
+      desc: `Evaluated vehicle on-board diagnostics and created test scenarios 
+      on team car for EcoCAR Mobility Challenge hosted by GM`
     }
   ]
 };

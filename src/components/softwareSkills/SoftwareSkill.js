@@ -92,20 +92,20 @@ export default function SoftwareSkill() {
       logoUrl:
         "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
     },
-    {
-      name: "Truffle",
-      logoUrl:
-        ""
-    },
-    {
-      name: "Ganache",
-      logoUrl:
-        ""
-    },
+    // {
+    //   name: "Truffle",
+    //   logoUrl:
+    //     ""
+    // },
+    // {
+    //   name: "Ganache",
+    //   logoUrl:
+    //     ""
+    // },
     {
       name: "Matlab",
       logoUrl:
-        ""
+        "https://img.shields.io/badge/Matlab-AC9EBF.svg?style=for-the-badge"
     },
     {
       name: "Android Studio",
@@ -135,12 +135,12 @@ export default function SoftwareSkill() {
       <div className="software-skills-main-div">
         <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
           <div className="px-2 w-1/2">
-            <p style={{fontSize:"25px"}}>Languages and Tools</p>
+            <p style={{ fontSize: "25px" }}>Languages and Tools</p>
             <div className="flex flex-wrap justify-center items-start w-full mt-2">
               {languagesAndTools.map((language, i) => (
                 <img
                   key={i}
-                  className="m-1"
+                  className="m-4" 
                   src={language.logoUrl}
                   alt={language.name}
                 />
@@ -148,12 +148,12 @@ export default function SoftwareSkill() {
             </div>
           </div>
           <div className="px-2 flex flex-wrap items-start w-1/2">
-            <p style={{fontSize:"25px"}}>Frameworks</p>
+            <p style={{ fontSize: "25px" }}>Frameworks</p>
             <div className="flex flex-wrap justify-center items-start w-full mt-2">
               {frameworks.map((framework, i) => (
                 <img
                   key={i}
-                  className="m-1"
+                  className="m-4"
                   src={framework.logoUrl}
                   alt={framework.name}
                 />
