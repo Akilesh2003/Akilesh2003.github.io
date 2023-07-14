@@ -148,7 +148,7 @@ export default function SoftwareSkill() {
             </div>
           </div>
           <div className="px-2 flex flex-wrap items-start w-1/2">
-            <p style={{ fontSize: "25px" }}>Frameworks </p>
+            <p style={{ fontSize: "25px" }}>Frameworks</p>
             <div className="flex flex-wrap justify-center items-start w-full mt-2">
               {frameworks.map((framework, i) => (
                 <img
