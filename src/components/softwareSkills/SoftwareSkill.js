@@ -2,6 +2,7 @@ import React from "react";
 import "./SoftwareSkill.scss";
 import { skillsSection } from "../../portfolio";
 
+
 export default function SoftwareSkill() {
   const languagesAndTools = [
     {
@@ -130,6 +131,8 @@ export default function SoftwareSkill() {
     // Add more frameworks here
   ];
 
+
+
   return (
     <div>
       <div className="software-skills-main-div">
@@ -140,9 +143,12 @@ export default function SoftwareSkill() {
               {languagesAndTools.map((language, i) => (
                 <img
                   key={i}
-                  className="m-1" 
+                  className="icon-padding" 
                   src={language.logoUrl}
                   alt={language.name}
+                  
+                  onMouseEnter={(e) => e.target.classList.add("glow-border")}
+                  onMouseLeave={(e) => e.target.classList.remove("glow-border")}
                 />
               ))}
             </div>
@@ -153,9 +159,11 @@ export default function SoftwareSkill() {
               {frameworks.map((framework, i) => (
                 <img
                   key={i}
-                  className="m-1"
+                  className="icon-padding"
                   src={framework.logoUrl}
                   alt={framework.name}
+                  onMouseEnter={(e) => e.target.classList.add("glow-border")}
+                  onMouseLeave={(e) => e.target.classList.remove("glow-border")}
                 />
               ))}
             </div>

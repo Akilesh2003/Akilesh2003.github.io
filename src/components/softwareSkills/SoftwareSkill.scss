@@ -9,6 +9,30 @@
   text-align: center;
 }
 
+.icon-padding {
+  padding: 4px;
+}
+
+.highlight-img {
+  border: 2px solid #ffcc00;
+}
+
+.glow-border {
+  animation: glowing-border 1s infinite; /* Adjust the animation duration as per your preference */
+}
+
+@keyframes glowing-border {
+  0% {
+    box-shadow: 0 0 5px #c4a20c;
+  }
+  50% {
+    box-shadow: 0 0 15px #c4a20c;
+  }
+  100% {
+    box-shadow: 0 0 5px #c4a20c;
+  }
+}
+
 .software-skill-inline {
   display: inline-block;
   margin-right: 20px;
