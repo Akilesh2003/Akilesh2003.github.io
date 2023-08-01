@@ -25,7 +25,7 @@ const greeting = {
     `An undergraduate Computer Science student @ University of Washington - Seattle.\n 
     Love to go hiking, biking, and follow Formula 1!`,
   resumeLink:
-    "https://drive.google.com/file/d/1lpwk0zE5Qie6VbXdbPS1j6G2SHNx9JiL/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1oPp-DkmcD76QU6edxsD52PfXs8_791tb/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
